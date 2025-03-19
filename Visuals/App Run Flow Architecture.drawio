@@ -1,0 +1,300 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="acQMlPOMdFItkSC2xbBj">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-1" value="=" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="1080" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-2" value="Frontend" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-4" target="cR5qnDZw47gF8BX7FzYp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-4" value="Login Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-6" target="cR5qnDZw47gF8BX7FzYp-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="220" />
+              <mxPoint x="65" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-6" target="cR5qnDZw47gF8BX7FzYp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-6" value="AWS Cognito" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-8" target="cR5qnDZw47gF8BX7FzYp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-8" value="Browser Local storage&lt;br&gt;&lt;br&gt;- Encrypted (User id, access token, refresh token, username)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-11" value="Invalid Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-15" value="Valid Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-16" value="App detail page&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-24" value="Run" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-25" value="Logged in User?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-16" target="cR5qnDZw47gF8BX7FzYp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.14;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-25" target="cR5qnDZw47gF8BX7FzYp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-29" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-32" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-34" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Set secure cookies for 30 mins with:&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- vps-app-id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- vps-auth-token&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Properties set:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- domain&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- expires (30min)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- httponly&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- partitioned&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- path&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- secure(true)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- samesite (strict)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="239" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-37" target="cR5qnDZw47gF8BX7FzYp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-37" target="cR5qnDZw47gF8BX7FzYp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-37" value="Is app?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-40" value="Model Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="899" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-42" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-44" target="cR5qnDZw47gF8BX7FzYp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-44" value="Set App Id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-46" target="cR5qnDZw47gF8BX7FzYp-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-46" value="App Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-49" value="iFrame" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-53" target="cR5qnDZw47gF8BX7FzYp-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-53" value="cookies appId == session storage appId?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="610" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-53" target="cR5qnDZw47gF8BX7FzYp-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="685" />
+              <mxPoint x="1060" y="119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-61" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-63" target="cR5qnDZw47gF8BX7FzYp-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-115" value="10 min app inactivity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cR5qnDZw47gF8BX7FzYp-114">
+          <mxGeometry x="0.1333" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-63" value="Points to : apps.vipas.ai" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="810" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-71" value="cookies with vps_app_id and vps_auth_token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="460" width="129" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-74" value="App gateway&lt;br&gt;Reverse Proxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="105" width="1060" height="685" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="165" width="960" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-82" value="Validate request and resolve" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="135" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-83" target="cR5qnDZw47gF8BX7FzYp-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-83" value="&lt;br&gt;&lt;br&gt;Validate source&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-84" target="cR5qnDZw47gF8BX7FzYp-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-84" value="Validate appID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-85" target="cR5qnDZw47gF8BX7FzYp-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-85" value="Validate auth token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-86" target="cR5qnDZw47gF8BX7FzYp-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-86" value="Generate session token using access token and app ID to run app.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="185" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-87" target="cR5qnDZw47gF8BX7FzYp-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-87" value="Extract the app details&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2085" y="190" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-92" target="cR5qnDZw47gF8BX7FzYp-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-92" value="Retrieve entity id for app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-95" target="cR5qnDZw47gF8BX7FzYp-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-100" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cR5qnDZw47gF8BX7FzYp-99">
+          <mxGeometry x="-0.0372" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-95" target="cR5qnDZw47gF8BX7FzYp-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-104" value="Send SQS event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cR5qnDZw47gF8BX7FzYp-103">
+          <mxGeometry x="-0.185" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-95" value="run_access ==private and entity_id != caller_entity_id" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="325" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-98" value="User unauthorized to call the app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1608" y="375" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-102" target="cR5qnDZw47gF8BX7FzYp-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-102" value="X-Session-Token: session_token,&lt;br&gt;X-Vps-App-ID: vps_app_id,&lt;br&gt;Host" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="600" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-106" value="Return JSON" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="575" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-63" target="cR5qnDZw47gF8BX7FzYp-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="900" />
+              <mxPoint x="1260" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-108" value="- Set Referer&lt;br&gt;- Set Cookie with session token as vps_auth_token&lt;br&gt;- Set Host" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="705" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-110" value="&lt;div&gt;- Origin header and referer header for security&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Check Sec-Fetch-Site header&lt;br&gt;&lt;div&gt;(Check request is not user originated operation)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Check&amp;nbsp;Sec-Fetch-Dest header&lt;br&gt;&lt;div&gt;(Check request is not browser originated)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="295" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-111" value="To check user is autherized to call app(checks run access)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="220" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-112" value="Returns caller_entity_id, username and session token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="265" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-113" value="App closing modal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="875" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-117" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="110" width="720" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-118" target="cR5qnDZw47gF8BX7FzYp-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-118" value="Download the pacakges from Data Plain Asist Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-120" value="Streamlit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-108" target="cR5qnDZw47gF8BX7FzYp-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-124" value="Kourier URL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="705" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-125" target="cR5qnDZw47gF8BX7FzYp-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-125" value="Download packages from&amp;nbsp;AWS CodeArtifact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-128" target="cR5qnDZw47gF8BX7FzYp-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-128" value="Format project ID and app ID for project naming" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2940" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-130" target="cR5qnDZw47gF8BX7FzYp-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-130" value="Defines the Python module name for the package" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-132" target="cR5qnDZw47gF8BX7FzYp-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-132" value="Finds the path of app.py inside installed package" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cR5qnDZw47gF8BX7FzYp-136" target="cR5qnDZw47gF8BX7FzYp-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-136" value="Run streamlit app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-143" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 20, 29); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Inference&lt;/span&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 20, 29); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Calls Vipas SDK predict&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="575" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-145" value="&lt;h1&gt;Security Aspects&lt;/h1&gt;&lt;p&gt;- Secured cookies with expire timeout and samesite strict mode&lt;/p&gt;&lt;p&gt;- Origin header and referer header check&lt;/p&gt;&lt;p&gt;- Sec-Fetch-Site header check&lt;/p&gt;&lt;p&gt;- Sec-Fetch-Dest header check&lt;/p&gt;&lt;p&gt;- App ID validation&lt;/p&gt;&lt;p&gt;- Access token validation&lt;/p&gt;&lt;p&gt;- App access validation&lt;/p&gt;&lt;p&gt;- Access token validation&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="1240" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cR5qnDZw47gF8BX7FzYp-146" value="&lt;h1&gt;iFrame Feature&lt;/h1&gt;&lt;p&gt;- Only allow single app to run browser&lt;/p&gt;&lt;p&gt;- Inactivity timeout.&lt;/p&gt;&lt;p&gt;- App ID security using cookies for app id and access token&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1030" width="200" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
